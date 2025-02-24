@@ -1,0 +1,81 @@
+<header class="hero">
+
+    <div class="container " data-aos="fade-up" data-aos-delay="200">
+        <div class="row">
+            <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                <h2 class="mb-3">Crafiting Digital Experiences with Passion</h2>
+                <p class="pera mt-4 mb-4">
+                    Transforming ideas into elegant solutions through creative design and innovative development
+                </p>
+                <div class="hero-btns d-flex gap-2 mb-3" data-aos="fade-up" data-aos-delay="400">
+                    <a href="" class="btn btn-primary">View My Work</a>
+                    <a href="" class="btn btn-light">Let's Connect</a>
+                </div>
+                <div class="hero-counter d-flex mt-5 gap-5" data-aos="fade-up" data-aos-delay="500">
+                    <div class="counter-item d-flex  flex-column align-items-center">
+                        <span class="coun-number fs-1 fs-bold">5+</span>
+                        <span class="count-label">Years Experiencs</span>
+                    </div>
+
+                    <div class="counter-item d-flex  flex-column align-items-center">
+                        <span class="coun-number fs-1 fs-bold">100+</span>
+                        <span class="count-label">Project Completed</span>
+                    </div>
+                    <div class="counter-item d-flex  flex-column align-items-center">
+                        <span class="coun-number fs-1 fs-bold">55+</span>
+                        <span class="count-label">Happy Clients</span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img [src]="imagePath" alt="Example Image" class="img-fluid" data-aos="zoom-out" data-aos-delay="600">
+            </div>
+
+        </div>
+    </div>
+
+</header>
+<button id="backToTop" class="back-to-top" (click)="scrollToTop()">
+    ↑
+</button>
+<!-- About section -->
+<section id="about us" class="about">
+    <app-about-us></app-about-us>
+</section>
+
+<!-- skills -->
+<section id="skills" class="skills">
+    <app-skills></app-skills>
+</section>
+
+<!-- protfolio -->
+<section id="protfolio" class="protfolio">
+    <app-protfolio></app-protfolio>
+</section>
+
+<!-- Testimonial -->
+<section id="testimonial" class="testimonial">
+    <app-testimonail></app-testimonail>
+</section>
+
+<!-- Services -->
+<section id="services" class="services">
+    <app-services></app-services>
+</section>
+
+<!-- FAQ  -->
+<section class="faqs">
+    <app-faqs></app-faqs>
+</section>
+
+<!-- contact -->
+<section id="contact" class="contact">
+    <app-contact></app-contact>
+</section>
+
+
+
+<footer class="footer shadow p-5">
+    <app-footer></app-footer>
+</footer>

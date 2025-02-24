@@ -1,0 +1,70 @@
+.hero{
+    padding: 8% 0;
+}
+.hero h2{
+    font-size: 3rem !important;
+    font-weight: 600;
+}
+.pera{
+    font-size: 1rem !important;
+    letter-spacing: 1px;
+}
+.hero-btns a{
+    padding: 10px 20px;
+}
+.hero-btns a:nth-child(2){
+    border: 1px solid rgba(131,131,131,0.5);
+}
+
+.btn-primary{
+    background-color: var(--prim-color) !important;
+}
+.coun-number{
+    font-family: var(--Nunito-font);
+}
+
+// About section
+.about{
+    background-color: var(--section-color);
+}
+
+
+
+// Testimonial Section
+.testimonial{
+    background-color: var(--section-color);
+    position: relative;
+}
+
+
+// servicess
+
+.services{
+    // margin-top: 50px;
+}
+
+// contact
+.contact{
+    background-color: var(--section-color);
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background:var(--prim-color);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: opacity 0.3s ease-in-out;
+}
+
+.back-to-top:hover {
+    background: #0056b3;
+}

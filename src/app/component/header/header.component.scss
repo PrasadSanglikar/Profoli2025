@@ -1,0 +1,24 @@
+.logo h1 span {
+    font-family:var(--kaushan-font)!important;
+}
+.navbar-nav li a{
+    transition: var(--transition-regular);
+}
+.navbar-nav li:hover a{
+    color: var(--text-color)!important;
+}
+.nav-link{
+    font-family: var(--Nunito-font)!important;
+    font-weight: 600 !important;
+} 
+.nav-social-icons i{
+    transition: var(--transition-regular);
+}
+.nav-social-icons i:hover{
+    color: var(--prim-color) !important;
+}
+
+.text-primary{
+    color: var(--prim-color) !important;
+}
+

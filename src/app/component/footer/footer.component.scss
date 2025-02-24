@@ -1,0 +1,26 @@
+ ul li a {
+    color: black;
+     transition: var(--transition-regular);
+ }
+
+ ul li:hover a {
+     color: var(--prim-color) !important;
+ }
+
+ .social-links i {
+     width: 40px;
+     height: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 10px;
+     transition: var(--transition-regular);
+ }
+
+ .social-links i:hover {
+     color: var(--white-color) !important;
+     background-color: var(--prim-color) !important;
+     box-shadow: 0 0 15px rgba(131, 131, 131, 0.5) !important;
+     transform: translateY(-5px) rotate(-5deg);
+     cursor: pointer;
+ }

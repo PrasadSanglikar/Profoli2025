@@ -1,0 +1,40 @@
+.title-text{
+    font-size: 4rem;
+    line-height: 4rem;
+    color: var(--prim-color);
+    font-family: var(--Nunito-font);
+}
+
+
+
+.pf-filters button:active,
+.pf-filters button:focus{
+    background-color:var(--prim-color) !important;
+    color:var(--white-color) !important;
+}
+
+.pf-card {
+    transition: var(--transition-regular);
+    cursor: pointer;
+}
+.pf-card:hover{
+    transform: translateY(10px);
+    box-shadow: 0 0 15px rgba(131,131,131,0.5);
+}
+.pf-img{
+    position: relative;
+}
+.pf-bg-light{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top,rgba(48, 62, 92, 0.7) 0% , transparent 100%);
+    opacity: 0;
+    border-radius: 10px;
+    transition: var(--transition-slow);
+}
+.pf-card:hover .pf-bg-light{
+    opacity: 1;
+}

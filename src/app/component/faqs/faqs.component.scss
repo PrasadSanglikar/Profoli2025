@@ -1,0 +1,41 @@
+.title-text{
+    font-size: 4rem;
+    line-height: 4rem;
+    color: var(--prim-color);
+    font-family: var(--Nunito-font);
+}
+
+.faq-card{
+    background-color: var(--white-color);
+    position: relative;
+    // overflow: hidden;
+}
+
+.faq-card h3{
+    transition: var(--transition-regular);
+}
+
+.faq-card:hover h3{
+color: var(--prim-color);
+}
+
+.faq-card  .faq-toggle{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 16px;
+    line-height: 0;
+    transition: var(--transition-regular);
+    cursor: pointer;
+}
+
+.faq-container .faq-active{
+    background-color: #e6b8ee;
+}
+
+.faq-container .faq-active  .faq-toggle{
+// transform: rotate(90deg);
+color :var(--prim-color) !important;
+
+}
+

@@ -1,0 +1,74 @@
+@import "swiper/css";
+@import "swiper/css/navigation";
+.title-text{
+    font-size: 4rem;
+    line-height: 4rem;
+    color: var(--prim-color);
+    font-family: var(--Nunito-font);
+}
+
+
+
+.client-small-img {
+    width: 70px;
+}
+
+.testimonial-content h2,
+.testimonial-content p {
+    font-family: var(--Nunito-font);
+}
+
+.container {
+    background-color: var(--white-color);
+    margin-top: 50px;
+}
+
+.swiper-btns .swiper-button-prev,
+.swiper-btns .swiper-button-next {
+    position: absolute !important;
+    top: 99% !important;
+    left: 45% !important;
+    width: 45px !important;
+    height: 45px !important;
+    background-color: var(--white-color);
+    box-shadow: 0 0 10px rgba(131, 131, 131, 0.2);
+    border: 1px solid rgba(131, 131, 131, 0.2);
+    border-radius: 100%;
+    transition: var(--transition-slow);
+
+}
+
+.swiper-btns .swiper-button-next {
+    left: 55% !important;
+}
+
+.swiper-btns .swiper-button-prev:after,
+.swiper-btns .swiper-button-next:after {
+    font-size: 16px;
+}
+
+.swiper-btns .swiper-button-prev:hover,
+.swiper-btns .swiper-button-next:hover {
+
+    background-color: var(--prim-color) !important;
+    color: var(--white-color);
+}
+
+
+@media (max-width:1000px) {
+
+    .swiper-btns .swiper-button-prev,
+    .swiper-btns .swiper-button-next {
+        top: 98% !important;
+
+    }
+}
+
+@media (max-width:768px) {
+
+    .swiper-btns .swiper-button-prev,
+    .swiper-btns .swiper-button-next {
+        top: 100% !important;
+
+    }
+}

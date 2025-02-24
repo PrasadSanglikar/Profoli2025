@@ -1,0 +1,36 @@
+<div class="title text-center d-flex flex-column align-items-center gap-2" data-aos="fade-up">
+    <h2 class="fw-bold title-text">Frequently Asked Questions</h2>
+    <!-- svg -->
+    <svg viewBox="0 0 200 20" xmlns="https://www.w3.org/2000/svg" width="200" height="20">
+        <path d="M 0,10 C 40,0 60,20 100, 10 C 140,0 160,20 200 ,10" fill="none" stroke="#3d03b8" stroke-width="2">
+        </path>
+    </svg>
+    <p class="fs-6 text-secondary w-50">
+        Chaturbhuj Technology is not widely known, and there are multiple companies with similar names in different
+        industries.
+    </p>
+</div>
+<div class="cotainer">
+    <div class="row justify-content-center">
+        <div class="col-lg-10" data-aos="fade-up" data-aos-delay="200">
+            <div class="faq-container">
+                <!-- card 1 -->
+                <div 
+                *ngFor="let faq of faqs; let i = index"
+                class="faq-card border p-3 mb-2 rounded faq-active"
+                [ngClass]="{ 'faq-active': faq.isActive }"
+                (click)="toggleFaq(i)"
+              >
+                <h3 class="fs-6">{{ faq.question }}</h3>
+                
+                <div class="faq-content" *ngIf="faq.isActive">
+                  <p>{{ faq.answer }}</p>
+                </div>
+              
+                <i class="faq-toggle bi" [ngClass]="faq.isActive ? 'bi-chevron-down' : 'bi-chevron-right'"></i>
+              </div>
+             
+            </div>
+        </div>
+    </div>
+</div>

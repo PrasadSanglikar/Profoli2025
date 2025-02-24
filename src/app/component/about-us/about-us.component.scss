@@ -1,0 +1,25 @@
+.about .title{
+    margin-bottom: 20px;
+}
+.title-text{
+    font-size: 4rem;
+    line-height: 4rem;
+    color: var(--prim-color);
+    font-family: var(--Nunito-font);
+}
+.subtitle{
+    font-size: 1rem !important;
+    font-weight: 500 !important;
+    color: var(--prim-color) !important ;
+}
+.about-content h2{
+    font-family: var(--Nunito-font) !important;
+}
+@media (max-width:1000px){
+    .about-wrapper{
+        flex-direction: column !important;
+    }
+    .about-wrapper .col-md-6{
+        width: 100%;
+    }
+}

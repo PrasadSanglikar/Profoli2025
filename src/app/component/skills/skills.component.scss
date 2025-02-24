@@ -1,0 +1,52 @@
+.skills .skills-box {
+    background-color: var(--white-color);
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    transition: var(--transition-regular);
+}
+
+.skills-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.progress {
+    border-radius: 50px;
+    height: 8px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.title-text{
+    font-size: 4rem;
+    line-height: 4rem;
+    color: var(--prim-color);
+    font-family: var(--Nunito-font);
+}
+
+
+.progress-bar {
+    background-color: var(--prim-color);
+    height: 100%;
+    position: relative;
+    border-radius: 50px;
+    transition: var(--transition-slow);
+    width: 10px;
+}
+
+.skills .row>div:nth-child(1) .progress-bar {
+    width: 90% !important;
+}
+
+.skills .row>div:nth-child(2) .progress-bar {
+    width: 90% !important;
+}
+
+.skills .row>div:nth-child(3) .progress-bar {
+    width: 70% !important;
+}
+
+.skills .row>div:nth-child(4) .progress-bar {
+    width: 55% !important;
+}

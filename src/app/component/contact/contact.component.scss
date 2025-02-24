@@ -1,0 +1,26 @@
+.contact-content h2{
+    font-size: 2.7rem;
+}
+.contact-content a{
+    transition: var(--transition-regular);
+}
+
+.contact-content a:hover{
+    color: var(--prim-color) !important;
+    letter-spacing: 1px;
+}
+.contact-form button{
+    height: 50px;
+    background-color: var(--prim-color);
+    color: var(--white-color);
+    transition: var(--transition-regular);
+}
+.contact-form button:hover{
+    background-color: var(--text-dark-color);
+    color: var(--white-color) !important;
+}
+@media(max-width:768px){
+    .contact-content h2{
+        font-size: 2rem;
+    }
+}
